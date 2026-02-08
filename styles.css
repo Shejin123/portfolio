@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: #020617;
+  position: sticky;
+  top: 0;
+}
+
+header h2 {
+  color: #38bdf8;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+section {
+  padding: 60px 40px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero span {
+  color: #38bdf8;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.skills span {
+  display: inline-block;
+  background: #020617;
+  margin: 8px;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+.project-card {
+  background: #020617;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
